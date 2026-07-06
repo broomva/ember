@@ -1,0 +1,39 @@
+# Ember — Control policy (bstack)
+# Machine-readable gates + setpoints. Enforced by the bstack harness + reasoning.
+# See CLAUDE.md (invariants) and AGENTS.md (operational rules).
+
+version: 1
+project: ember
+
+gates:
+  G1_no_secrets:
+    description: No secrets, keys, or tokens committed. Use .env (gitignored).
+    blocking: true
+  G2_no_destructive_ops:
+    description: No force-push to main, history rewrite, or bulk delete without explicit confirmation.
+    blocking: true
+  G3_no_merge_on_red:
+    description: CI must be green before merge. Never merge with failing checks.
+    blocking: true
+  G4_governance_present:
+    description: CLAUDE.md, AGENTS.md, and this policy must be present.
+    blocking: true
+
+invariants:
+  own_the_mind_rent_the_body: >
+    Own the definition substrate, tool-pack, memory/evolution model, surface, and absorption.
+    Rent the runtime behind the ExecutionHost seam. Never adopt a runtime's proprietary
+    primitives as product layers.
+  own_the_record: >
+    The per-user workspace-as-data lives in our own portable, S3-compatible store. Runtime
+    FUSE-mounts it for reads; write-back commits through our own git/DB path.
+  gated_evolution: >
+    No agent free-form self-modifies a live workspace. Evolution is propose -> test vs frozen
+    fixtures -> user approves -> versioned, revertable diff.
+
+conventions:
+  package_manager: bun
+  linter: biome
+  auth: better-auth
+  deploy: vercel
+  runtime: eve
