@@ -32,10 +32,6 @@ Thumbs.db
 coverage/
 .nyc_output/
 
-# Design system + prototypes — kept local, not in the public repo
-/design-system/
-/prototypes/
-
 # bstack local runtime state (keep policy.yaml; ignore generated state)
 .control/*.local.*
 .control/audit/
