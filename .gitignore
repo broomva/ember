@@ -32,9 +32,14 @@ Thumbs.db
 coverage/
 .nyc_output/
 
-# Internal design-iteration scaffolding (kept local, not published)
-prototypes/_context/
+# Design system + prototypes — kept local, not in the public repo
+/design-system/
+/prototypes/
 
-# bstack local state
+# bstack local runtime state (keep policy.yaml; ignore generated state)
 .control/*.local.*
+.control/audit/
+.control/leverage-*
+.control/*.jsonl
+.control/*-state.json
 .cache/

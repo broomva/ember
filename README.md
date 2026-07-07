@@ -48,8 +48,6 @@ plane, managed storage + backups, and support. Own your data; rent the convenien
 |---|---|
 | [`docs/architecture.md`](docs/architecture.md) | The technical architecture (layers, the Forge, the evolve loop, the surface, the data model, voice) |
 | [`docs/monetization.md`](docs/monetization.md) | The open-core model (self-host vs Managed Cloud) |
-| [`design-system/`](design-system/) | The Broomva Design System — tokens, components, and the work/gate/receipt vocabulary |
-| [`prototypes/`](prototypes/) | Interactive PWA mockups — open the `.html` files in a browser |
 
 ## Built with
 

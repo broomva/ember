@@ -22,7 +22,7 @@ npx skills add broomva/bstack   # optional: the agent harness
 bun install
 ```
 
-Interactive prototypes are plain HTML — open `prototypes/*.html` in a browser.
+The app scaffold (Next.js / bun / Biome / Better Auth) lands as it's built.
 
 ## Architecture guardrails
 

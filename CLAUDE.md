@@ -33,8 +33,8 @@ Full picture: [`docs/architecture.md`](docs/architecture.md).
 - **Linter:** Biome (never ESLint/Prettier).
 - **Auth:** Better Auth (never NextAuth).
 - **Deploy:** Vercel. **Runtime:** eve.
-- **Web:** TypeScript / Next.js (installable PWA). **Design:** the Broomva Design System in
-  [`design-system/`](design-system/) — cool-blue, calm, glass-earned; plain voice, sentence case.
+- **Web:** TypeScript / Next.js (installable PWA). **Design:** the Broomva Design System —
+  cool-blue, calm, glass-earned; plain voice, sentence case.
 
 ## Development principles
 
@@ -58,8 +58,6 @@ gates in [`.control/policy.yaml`](.control/policy.yaml).
 ```
 ember/
 ├── docs/            architecture.md · monetization.md
-├── design-system/   the Broomva Design System (tokens, components, guidelines)
-├── prototypes/      interactive PWA mockups (open the .html files)
 ├── CLAUDE.md        this file — invariants
 ├── AGENTS.md        operational rules
 └── .control/        policy.yaml — gates

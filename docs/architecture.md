@@ -68,13 +68,12 @@ verification signal; replay-against-frozen-substrate is what makes consolidation
 
 ## The surface
 
-Built on the **Broomva Design System** (see [`../design-system/`](../design-system/)) — a calm,
-monochrome, cool-blue design language for work-orchestration agents. Its load-bearing inventions:
-**the Composer** (the one input), **the gate / the look** (a session compressed to *made · decided
-· asks*, with approve / edit as the only controls), **Receipts** (evidence over progress bars),
-**the Undertow** (a running signal — presence, not progress), and the plain-voice **WorkState**
-vocabulary (Queued · Running · Needs you · Done · Standing). Interactive mockups live in
-[`../prototypes/`](../prototypes/).
+Built on the **Broomva Design System** — a calm, monochrome, cool-blue design language for
+work-orchestration agents. Its load-bearing inventions: **the Composer** (the one input), **the
+gate / the look** (a session compressed to *made · decided · asks*, with approve / edit as the
+only controls), **Receipts** (evidence over progress bars), **the Undertow** (a running signal —
+presence, not progress), and the plain-voice **WorkState** vocabulary (Queued · Running · Needs
+you · Done · Standing).
 
 ## The record — own-the-record on a rented runtime
 
